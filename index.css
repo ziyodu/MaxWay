@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #31363b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.contact {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: white;
+}
+p{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+.razer{
+    color: white;
+    background: url("https://cdn.britannica.com/98/235798-050-3C3BA15D/Hamburger-and-french-fries-paper-box.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.color{
+    color: black;
+}
+.parent, .parent1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+.card1{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.card1:active{
+    border: 10px solid black;
+}
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+thead, 
+thead tr {
+    background: rgb(0, 204, 255);
+}
+tbody, 
+tbody tr{
+    background-color: green;
+    color: #fff;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    margin-top: 100px;
+}
+.last{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+
+}
+
